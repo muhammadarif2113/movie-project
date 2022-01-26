@@ -1,21 +1,21 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Movie from './Movie';
 
-function AddFavorites(props) {
-	const [fav, setFav] = useState([]);  
+function AddFavorites() {
+	// const [fav, setFav] = useState([]);  
 
-	function clickHandler(){
-		setFav(<Movie />)
-		console.log(props.title); 
-		console.log(props.overview); 
-		console.log(props.vote_average); 
+	// function clickHandler(){
+	// 	setFav(<Movie />)
+	// 	console.log(props.title); 
+	// 	console.log(props.overview); 
+	// 	console.log(props.vote_average); 
 		
-	}
+	// }
 
   return (
   <>
       <svg
-	  			onClick={clickHandler}
+	  			// onClick={clickHandler}
 				width='1em'
 				height='1em'
 				viewBox='0 0 16 16'

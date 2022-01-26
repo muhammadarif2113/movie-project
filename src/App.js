@@ -9,8 +9,8 @@ import AddFavorites from './components/AddFavorites';
 const FEATURED_API = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=b3fea6810ad3a698a1779b6ad4e2d5b1&page=1";
 
 // const FEATURED_API = "https://api.themoviedb.org/3/movie/550?api_key=b3fea6810ad3a698a1779b6ad4e2d5b1";
-const IMG_API = "https://image.tmdb.org/t/p/w1280"; 
-const SEARCH_API = "https://api.themoviedb.org/3/search/movie?api_key=b3fea6810ad3a698a1779b6ad4e2d5b1&query=";
+// const IMG_API = "https://image.tmdb.org/t/p/w1280"; 
+// const SEARCH_API = "https://api.themoviedb.org/3/search/movie?api_key=b3fea6810ad3a698a1779b6ad4e2d5b1&query=";
 
 
 function App() {
